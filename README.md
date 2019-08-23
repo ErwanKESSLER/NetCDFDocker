@@ -11,14 +11,13 @@ FOR THE FIRST TIME ONLY :
 
 -Enable docker : `sudo systemctl enable docker`
 
--First build the image with : `sudo docker build -t netcdf -f Dockerfile .`
+-First build the image with : `sudo docker build -t netcdf -f Dockerfile .` (it takes 25min approximately)
 
 ---
 
 MULTIPLE TIMES : 
 
--You can then check its build (it takes 25min approximately) with:
-`sudo docker images`
+-You can then check f the image is there ( with:`sudo docker images`)
 
 -If there is an image called netcdf then congrats you have it ( you can save it locally with `docker save netcdf > netcdf.tar` and load it on any docker device with `docker load netcdf.tar`
 
