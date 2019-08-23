@@ -5,8 +5,11 @@ DockerFile for NetCDF fortran
 FOR THE FIRST TIME ONLY :
 
 -Install Docker: `apt-get install docker.io`
+
 -Set Docker to run : `sudo systemctl start docker`
+
 -Enable docker : `sudo systemctl enable docker`
+
 -First build the image with : `sudo docker build -t netcdf -f Dockerfile .`
 
 MULTIPLE TIMES : 
