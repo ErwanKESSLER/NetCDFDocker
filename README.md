@@ -1,6 +1,7 @@
 # NetCDFDocker
 DockerFile for NetCDF fortran
 
+---
 
 FOR THE FIRST TIME ONLY :
 
@@ -11,6 +12,8 @@ FOR THE FIRST TIME ONLY :
 -Enable docker : `sudo systemctl enable docker`
 
 -First build the image with : `sudo docker build -t netcdf -f Dockerfile .`
+
+---
 
 MULTIPLE TIMES : 
 
